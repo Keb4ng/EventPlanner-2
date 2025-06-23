@@ -874,29 +874,9 @@ footer {
   padding: 1.5rem 0;
 }
 
-.approved input[type="radio"] {
-  display: none;
-}
-
-.approved label {
-  padding: 10px 20px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-right: 10px;
-  transition: all 0.3s ease;
-}
-
-.approved .yes-btn.selected {
-  background-color: #28a745;
-  color: white;
-  border-color: #28a745;
-}
-
-.approved .no-btn.selected {
-  background-color: #dc3545;
-  color: white;
-  border-color: #dc3545;
+.table-row input[type="checkbox"] {
+  scale: 1.5;
+  accent-color: var(--c-secondary);
 }
 
 @media only screen and (max-width: 991px) {
